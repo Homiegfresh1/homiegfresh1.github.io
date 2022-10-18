@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+}
+
+tbody {
+    background-color: #071277; 
+    color: #D69F4C; 
+    text-align: center;
+}
+
+thead {
+    background-color: #071277; 
+    color: white; 
+    text-align: center;
+    
+}
+
+td {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+th {
+    border-width: 5px !important;
+    border-bottom-width: 10px !important;
+}
+
+td, th {
+    padding: 10px;
+    border-width: 5px !important;
+    border-color: black !important;
+}
+
+.questionWindow {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    color: white;
+    background-color: #071277;
+    border-radius: 1em;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100vh; 
+    border: solid black 1px;
+    height: 75vh;
+}
+
+.questionWindowActions {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.questionWindowContent {
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
