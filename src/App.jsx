@@ -1,5 +1,6 @@
-import { Container, Navbar, NavbarBrand } from "reactstrap";
+import { Container, Navbar, NavbarBrand, Row, Col } from "reactstrap";
 import QuestionBoard from "./QuestionBoard";
+import TeamBoard from "./TeamBoard/TeamBoard";
 
 function App() {
   return (
@@ -8,7 +9,14 @@ function App() {
         <NavbarBrand>Odyssey Jeoperdy</NavbarBrand>
       </Navbar>
       <Container>
-        <QuestionBoard />
+        <Row>
+          <Col lg="3">
+            <TeamBoard />
+          </Col>
+          <Col lg="9">
+            <QuestionBoard />
+          </Col>
+        </Row>
       </Container>
     </div>
   );

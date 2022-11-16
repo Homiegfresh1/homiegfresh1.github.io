@@ -30,36 +30,35 @@ const QuestionBoard = () => {
             <table>
                 <thead>
                     <tr>
-                        <th>Category 1</th>
-                        <th>Category 2</th>
-                        <th>Category 3</th>
-                        <th>Category 4</th>
+                        <th>Characters</th>
+                        <th>Plot</th>
+                        <th>Quotes</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        {/* Character 1 */}
                         <td><QuestionCell value={100} question={"Test Question 1"} answer={"Test Answer 1"} /></td>
+                        {/* Plot 1 */}
                         <td><QuestionCell value={100} question={"Test Question 1"} answer={"Test Answer 1"} /></td>
-                        <td><QuestionCell value={100} question={"Test Question 1"} answer={"Test Answer 1"} /></td>
+                        {/* Quotes 1 */}
                         <td><QuestionCell value={100} question={"Test Question 1"} answer={"Test Answer 1"} /></td>
                     </tr>
                     <tr>
+                        {/* Character 2 */}
                         <td><QuestionCell value={200} question={"Test Question 2"} answer={"Test Answer 2"} /></td>
+                        {/* Plot 2 */}
                         <td><QuestionCell value={200} question={"Test Question 2"} answer={"Test Answer 2"} /></td>
-                        <td><QuestionCell value={200} question={"Test Question 2"} answer={"Test Answer 2"} /></td>
+                        {/* Quotes 2 */}
                         <td><QuestionCell value={200} question={"Test Question 2"} answer={"Test Answer 2"} /></td>
                     </tr>
                     <tr>
+                        {/* Character 3 */}
                         <td><QuestionCell value={300} question={"Test Question 3"} answer={"Test Answer 3"} /></td>
+                        {/* Plot 3 */}
                         <td><QuestionCell value={300} question={"Test Question 3"} answer={"Test Answer 3"} /></td>
+                        {/* Quotes 3 */}
                         <td><QuestionCell value={300} question={"Test Question 3"} answer={"Test Answer 3"} /></td>
-                        <td><QuestionCell value={300} question={"Test Question 3"} answer={"Test Answer 3"} /></td>
-                    </tr>
-                    <tr>
-                        <td><QuestionCell value={400} question={"Test Question 4"} answer={"Test Answer 4"} /></td>
-                        <td><QuestionCell value={400} question={"Test Question 4"} answer={"Test Answer 4"} /></td>
-                        <td><QuestionCell value={400} question={"Test Question 4"} answer={"Test Answer 4"} /></td>
-                        <td><QuestionCell value={400} question={"Test Question 4"} answer={"Test Answer 4"} /></td>
                     </tr>
                 </tbody>
             </table>
